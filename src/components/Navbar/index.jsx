@@ -4,25 +4,27 @@ import * as S from "./style";
 export const Menu = () => {
   return (
     <>
-      <img src={Logo} alt="" />
+      <S.ContainerFlex>
+        <S.ImageLogo src={Logo} alt="" />
 
-      <ul>
-        <li>
-          <a href="">HABILIDADES</a>
-        </li>
-        <li>
-          <a href="">PROJETOS</a>
-        </li>
-        <li>
-          <a href="">CERTIFICADOS</a>
-        </li>
-        <li>
-          <a href="">CONTATO</a>
-        </li>
-        <li>
-          <img src={Globo} alt="" />
-        </li>
-      </ul>
+        <S.ListaFlex>
+          <S.ListaItem>
+            <S.ListaAdress href="">HABILIDADES</S.ListaAdress>
+          </S.ListaItem>
+          <S.ListaItem>
+            <S.ListaAdress href="">PROJETOS</S.ListaAdress>
+          </S.ListaItem>
+          <S.ListaItem>
+            <S.ListaAdress href="">CERTIFICADOS</S.ListaAdress>
+          </S.ListaItem>
+          <S.ListaItem>
+            <S.ListaAdress href="">CONTATO</S.ListaAdress>
+          </S.ListaItem>
+          <S.ListaItem>
+            <img src={Globo} alt="Icone de globo para mudar as linguagens" />
+          </S.ListaItem>
+        </S.ListaFlex>
+      </S.ContainerFlex>
     </>
   );
 };
