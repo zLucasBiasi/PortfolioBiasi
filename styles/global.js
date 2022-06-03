@@ -1,14 +1,26 @@
+import { css } from "styled-components";
 import { createGlobalStyle } from "styled-components";
-import { Temas } from "./themes";
+import { themes } from "./themes";
+
 export const Global = createGlobalStyle`
 
-*{
-    margin:0;
-    padding:0;
-    text-decoration:none;
-    box-sizing:border-box;
-    list-style:none;
-    background-color: ${Temas.background};
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: ${themes.background};
+    color: #fff;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  html {
+    font-size: 62.5%;
+  }
 
 `;
