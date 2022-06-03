@@ -1,3 +1,9 @@
+import Logo from "../../public/assets/Logo.svg";
+
 export const Menu = () => {
-  return <h1>esse é o menu</h1>;
+  return (
+    <>
+      <img src={Logo} alt="" />
+    </>
+  );
 };

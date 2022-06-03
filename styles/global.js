@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-
+import { Temas } from "./themes";
 export const Global = createGlobalStyle`
 
 *{
@@ -8,6 +8,7 @@ export const Global = createGlobalStyle`
     text-decoration:none;
     box-sizing:border-box;
     list-style:none;
+    background-color: ${Temas.background};
 }
 
 `;
