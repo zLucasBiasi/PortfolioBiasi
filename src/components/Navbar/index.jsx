@@ -1,5 +1,6 @@
 import Logo from "../../public/assets/Logo.svg";
 import Globo from "../../public/assets/globo.svg";
+import Hamburguer from "../../public/assets/hamburguer.svg";
 import * as S from "./style";
 export const Menu = () => {
   return (
@@ -23,6 +24,8 @@ export const Menu = () => {
           <S.ListaItem>
             <img src={Globo} alt="Icone de globo para mudar as linguagens" />
           </S.ListaItem>
+
+          <S.Hamb src={Hamburguer} alt="Icone do hamburguer" />
         </S.ListaFlex>
       </S.ContainerFlex>
     </>
