@@ -21,7 +21,7 @@ export const ContainerPerfil = styled.div`
 
 export const TituloPerfil = styled.h1`
   font-size: ${themes.fontes.fglargue};
-  font-weight: 600;
+  font-weight: 700;
   width: 30rem;
   margin-bottom: 20px;
   @media (max-width: 900px) {
