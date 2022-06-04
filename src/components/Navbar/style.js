@@ -6,7 +6,10 @@ export const ContainerFlex = styled.div`
   align-items: center;
   padding: 15px 100px 15px 100px;
   @media (max-width: 900px) {
-    padding: 15px 30px 15px 30px;
+    padding: 15px 30px 50px 30px;
+  }
+  @media (max-width: 430px) {
+    padding: 0 15px 50px 15px;
   }
 `;
 
