@@ -7,7 +7,6 @@ export const Menu = () => {
     <>
       <S.ContainerFlex>
         <S.ImageLogo src={Logo} alt="" />
-
         <S.ListaFlex>
           <S.ListaItem>
             <S.ListaAdress href="">HABILIDADES</S.ListaAdress>
@@ -24,7 +23,6 @@ export const Menu = () => {
           <S.ListaItem>
             <img src={Globo} alt="Icone de globo para mudar as linguagens" />
           </S.ListaItem>
-
           <S.Hamb src={Hamburguer} alt="Icone do hamburguer" />
         </S.ListaFlex>
       </S.ContainerFlex>
