@@ -17,7 +17,6 @@ function App() {
       <Projetos />
       <Certificados />
       <Contato />
-      <Rodapé />
     </>
   );
 }
