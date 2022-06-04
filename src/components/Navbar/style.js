@@ -5,6 +5,9 @@ export const ContainerFlex = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 15px 100px 15px 100px;
+  @media (max-width: 900px) {
+    padding: 15px 30px 15px 30px;
+  }
 `;
 
 export const ImageLogo = styled.img`
