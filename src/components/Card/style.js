@@ -13,15 +13,28 @@ export const TituloHabilidades = styled.h1`
 export const ContainerHabilidades = styled.div`
   padding: 100px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   place-items: center;
-  gap: 40px;
+  gap: 30px;
 
-  @media (max-width: 400px) {
-    padding: 50px 0 50px 0;
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1000px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media (max-width: 700px) {
+    padding: 50px;
+    gap: 50px;
   }
 `;
 
 export const IconStack = styled.img`
-  width: 250px;
+  width: 100%;
+
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `;
