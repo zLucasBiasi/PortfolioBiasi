@@ -20,6 +20,11 @@ export const Global = createGlobalStyle`
   body {
     background-color: ${themes.background};
     color: #fff;
+ 
+    @media (min-width: 1500px) {
+    width:1300px;
+    margin:0 auto;
+    }
   }
   ul {
     list-style: none;
