@@ -45,4 +45,25 @@ export const ListaAdress = styled.a`
   color: ${themes.branco};
   font-size: ${themes.fontes.fsmall};
   font-weight: 600;
+  display: inline-block;
+  position: relative;
+  &:hover{
+    color:${themes.corlaranja}
+  }
+  &:hover::after{
+     color:${themes.corlaranja};
+     width: 100%;
+     
+  }
+  &:after{
+    content: "";
+    display: block;
+    height: 2px;
+    width:0%;
+    background-color: white;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+  }
+  
 `;

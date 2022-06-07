@@ -21,8 +21,8 @@ export const Global = createGlobalStyle`
     background-color: ${themes.background};
     color: #fff;
  
-    @media (min-width: 1500px) {
-    width:1300px;
+    @media (min-width: 1700px) {
+    width:1600px;
     margin:0 auto;
     }
   }

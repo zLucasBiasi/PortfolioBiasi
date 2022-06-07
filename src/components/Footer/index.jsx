@@ -5,7 +5,7 @@ export const Rodapé = () => {
     <>
       <S.Footer>
         <S.Titulo>
-          Design e desenvolvimento feito por <span> Lucas Biasi.</span>
+          Design e desenvolvimento feito por <S.Span>Lucas Biasi.</S.Span>
         </S.Titulo>
         <S.Lista>
           {image.map((item) => (
