@@ -6,7 +6,7 @@ export const Projetos = () => {
       <S.TituloProjetos>PROJETOS</S.TituloProjetos>
       <S.ContainerGrid>
         {projects.map((item) => (
-          <img key={item.url} src={item.url}></img>
+          <S.ImageProjects key={item.url} src={item.url}></S.ImageProjects>
         ))}
       </S.ContainerGrid>
     </>
