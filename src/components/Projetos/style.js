@@ -13,8 +13,8 @@ export const ContainerGrid = styled.div`
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
 
-  @media (max-width: 800px) {
-    padding: 95px;
+  @media (max-width: 1000px) {
+    padding: 20px 95px 0 95px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
   }
@@ -36,7 +36,7 @@ export const ImageProjects = styled.img`
     grid-row: 1/3;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     &:first-child {
       grid-column: 1/4;
       grid-row: 1/3;
@@ -53,4 +53,30 @@ export const ImageProjects = styled.img`
       height: 60%;
     }
   }
+`;
+
+export const ButtonGit = styled.a`
+  padding: 15px 80px 15px 80px;
+  font-size: ${themes.fontes.fsmall};
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+  border: 3px solid ${themes.branco};
+  &:hover {
+    background-color: ${themes.branco};
+    color: ${themes.background};
+    font-weight: 600;
+  }
+
+  @media (max-width: 800px) {
+    font-size: 1.1rem;
+    padding: 8px 30px 8px 30px;
+  }
+`;
+
+export const ContainerFlex = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 `;
