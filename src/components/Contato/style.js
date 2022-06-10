@@ -4,7 +4,10 @@ import {themes} from "../../../styles/themes/index"
 export const DivContainer = styled.div`
 padding: 4rem 0;
 @media (max-width:900px) {
-  margin: 0 1rem;
+  margin: 0 3rem;
+}
+@media (max-width:600px) {
+  margin: 0 2rem;
 }
 `
 export const ContainerForm = styled.form` 
