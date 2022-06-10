@@ -36,8 +36,8 @@ export const Lista = styled.ul`
   padding-bottom: 1rem;
 `
 export const Images = styled.img`
- @media screen and (max-width:970px){
-   max-width: 45px;
-
- }
+max-width: 45px;
+ /* @media (max-width:1200px) {
+  max-width: 50px;
+ } */
 `;
