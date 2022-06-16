@@ -11,5 +11,6 @@ export const ContainerCertificados = styled.div`
 
   @media (max-width: 600px) {
     padding: 0;
+    min-height: 200px;
   }
 `;
