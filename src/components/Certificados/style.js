@@ -7,6 +7,7 @@ export const TitulosC = styled.h1`
 
 export const ContainerCertificados = styled.div`
   padding: 0 60px 0 60px;
+  min-height: 700px;
 
   @media (max-width: 600px) {
     padding: 0;
